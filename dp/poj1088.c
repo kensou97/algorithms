@@ -9,6 +9,7 @@ int dp[100][100];
 int height[100][100];
 int R=0;
 int C=0;
+int longestpath(int i,int j);
 int main(void){
     scanf("%d %d",&R,&C);
     
