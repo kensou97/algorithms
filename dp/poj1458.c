@@ -30,8 +30,8 @@ int main(void){
     
     while(scanf("%s %s",str1,str2)!=EOF){
         memset(dp,-1,sizeof(dp));
-        len1=strlen(str1);
-        len2=strlen(str2);
+        len1=(int)strlen(str1);
+        len2=(int)strlen(str2);
         printf("%d\n",lcs(str1,str2,len1,len2));
     }
     return 0;
